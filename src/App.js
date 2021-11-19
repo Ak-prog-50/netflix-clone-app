@@ -8,7 +8,7 @@ import end_points from './request'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Banner/>
       <Row title="Netflix Originals" fetchUrl={end_points.fetchNetflixOriginals} isLargeRow/>
       <Row title="Trending Now" fetchUrl={end_points.fetchTrending}/>
